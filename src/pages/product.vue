@@ -10,7 +10,7 @@
 
     export default {
         data() {
-            return {msg: 'vue模板页'}
+            return {msg: 'product'}
         }
     }
 

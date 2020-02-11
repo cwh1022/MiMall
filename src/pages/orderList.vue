@@ -9,8 +9,9 @@
 <script>
 
     export default {
+        name: 'order-list',
         data() {
-            return {msg: 'vue模板页'}
+            return {msg: 'order-list'}
         }
     }
 

@@ -9,6 +9,7 @@
 <script>
 
     export default {
+        name: 'alipay',
         data() {
             return {msg: 'vue模板页'}
         }

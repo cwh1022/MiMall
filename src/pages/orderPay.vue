@@ -9,8 +9,9 @@
 <script>
 
     export default {
+        name: 'order-pay',
         data() {
-            return {msg: 'vue模板页'}
+            return {msg: 'orderPay'}
         }
     }
 

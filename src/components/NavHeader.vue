@@ -11,7 +11,7 @@
     export default {
         name: 'nav-header',
         data() {
-            return {msg: 'vue模板页'}
+            return {msg: 'nav-header'}
         }
     }
 

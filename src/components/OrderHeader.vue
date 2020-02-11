@@ -9,8 +9,9 @@
 <script>
 
     export default {
+        name: 'order-header',
         data() {
-            return {msg: 'login'}
+            return {msg: 'vue模板页'}
         }
     }
 

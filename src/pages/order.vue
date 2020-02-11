@@ -1,9 +1,9 @@
 <template>
 
     <div>
-        <nav-header></nav-header>
+        <order-header></order-header>
         <router-view></router-view>
-        <nav-footer></nav-footer>
+        <order-footer></order-footer>
     </div>
 
 </template>
@@ -12,14 +12,14 @@
 
 <script>
 
-    import NavFooter from "../components/NavFooter";
-    import NavHeader from "../components/NavHeader";
+    import OrderHeader from "./../components/OrderHeader";
+    import OrderFooter from "./../components/OrderFooter";
 
     export default {
         name: 'order',
-        components: {NavFooter, NavHeader},
+        components: {OrderHeader, OrderFooter},
         data() {
-            return {msg: 'vue模板页'}
+            return {msg: 'order'}
         }
     }
 
